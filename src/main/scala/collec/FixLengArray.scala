@@ -4,6 +4,8 @@ package collec
   *
   * 定长数组
   *
+  * Array
+  *
   * @author xiaoran
   * @date 2019/06/22
   *
