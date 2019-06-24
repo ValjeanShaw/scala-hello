@@ -10,3 +10,5 @@
 ### 集合
 * 定长数组  Array
 * 变长数组  ArrayBuffer
+* 定长List
+* 变长ListBuffer
