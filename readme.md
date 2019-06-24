@@ -12,3 +12,5 @@
 * 变长数组  ArrayBuffer
 * 定长List
 * 变长ListBuffer
+* 定长Map
+* 变长mutable.Map
