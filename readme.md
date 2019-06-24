@@ -9,3 +9,4 @@
 
 ### 集合
 * 定长数组  Array
+* 变长数组  ArrayBuffer
