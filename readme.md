@@ -15,3 +15,5 @@
 * 定长Map
 * 变长mutable.Map
 * 元组
+* 定长Set   set
+* 变长Set   mutable.Set
