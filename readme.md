@@ -24,3 +24,4 @@
 * 类的构造函数
 * 单例对象和伴生对象
 * 伴生对象的apply,unapply方法
+* 继承和Override
