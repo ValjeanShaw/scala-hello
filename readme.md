@@ -26,3 +26,4 @@
 * 伴生对象的apply,unapply方法
 * 继承和Override
 * 抽象类
+* 特质
