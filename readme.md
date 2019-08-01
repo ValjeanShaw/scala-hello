@@ -25,3 +25,4 @@
 * 单例对象和伴生对象
 * 伴生对象的apply,unapply方法
 * 继承和Override
+* 抽象类
