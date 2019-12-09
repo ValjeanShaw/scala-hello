@@ -16,6 +16,7 @@ object SetDemo {
   def main(args: Array[String]): Unit = {
     //不可变set
     val set = Set(1, 2, 3, 4, 5)
+    val y = set+8
     val set2 = Set(10, 2, 30, 4, 50)
 
     println(set + 8)
