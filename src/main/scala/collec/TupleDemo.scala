@@ -16,7 +16,7 @@ object TupleDemo {
     val tuple2,(a,b,c)=("tuple","bulala",5)
 
     //Tuple 后面的数字代表元组个数
-    val t5 = new Tuple5("da","shu","ju",123,456)
+    val t5 = Tuple5("da","shu","ju",123,456)
 
 
 
@@ -25,9 +25,16 @@ object TupleDemo {
     println(b)
     println(t5._3)
 
-    //元组的遍历有点区别
+    //元组的遍历有点特别
     tuple.productIterator.foreach(x=>println("遍历："+x))
     tuple.productIterator.foreach(println(_))
 
+
+    //拉链操作  zip
+    val symbols = Array("<","-",">")
+    val counts = Array(2,3,4)
+
+    val paris = symbols.zip(counts)
+    paris.foreach(println(_))
   }
 }
