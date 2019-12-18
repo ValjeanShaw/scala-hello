@@ -13,7 +13,7 @@ object TupleDemo {
     //元组的定义   可以混合多种类型   元组中的数据不可被改变
     var tuple = ("string",123,6.5f)
 
-    val tuple2,tuple3=("tuple","bulala",5)
+    val tuple2,(a,b,c)=("tuple","bulala",5)
 
     //Tuple 后面的数字代表元组个数
     val t5 = ("ju",123,456,"shu","ju",123,456,"shu","ju",123,456,"shu","ju",123,456,"shu","ju",123,456)
