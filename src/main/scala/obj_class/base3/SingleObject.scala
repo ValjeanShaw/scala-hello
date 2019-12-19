@@ -5,6 +5,7 @@ package obj_class.base3
   * @date 2019/07/26
   *
   *       单例对象   object
+  *       scala中没有静态字段和静态方法
   *       可以看做是java中的工具类,常用于定义工具函数和常量
   *
   *       单例对象不能带参数，不能创建实例化对象，在第一次被调用的时候被初始化
@@ -34,7 +35,7 @@ object LoggerTest{
   def main(args: Array[String]): Unit = {
     val obj:Test = new Test()
     obj.log
-
+    //调用方式
     Base3.log("world")
   }
 }
